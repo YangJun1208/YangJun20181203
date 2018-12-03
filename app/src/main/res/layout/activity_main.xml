@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.bwei.yangjun.CustomtTtleView
+        android:id="@+id/customTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <com.bwei.yangjun.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="最近搜索"
+        android:textSize="30dp"
+        />
+    <com.bwei.yangjun.CustomFlawView
+        android:id="@+id/customFlawView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="清空"
+        />
+    <com.bwei.yangjun.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="搜索发现"
+        android:textColor="#00f"
+        android:textSize="30dp"
+        />
+
+    <com.bwei.yangjun.CustomFlawView
+        android:id="@+id/shuView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
